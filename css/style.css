@@ -68,12 +68,14 @@ ul {
 
 .menu-contact li {
   display: inline;
+  letter-spacing: 0.02em;
 }
 
 .link {
   color: var(--text-color);
   font-size: 14px;
   line-height: 1.14;
+  font-style: normal;
 }
 
 /* hero */
@@ -113,6 +115,7 @@ ul {
   font-size: 44px;
   line-height: 1.4;
   text-align: center;
+  text-transform: uppercase;
 }
 
 /* features */
