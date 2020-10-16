@@ -68,14 +68,15 @@ ul {
 
 .menu-contact li {
   display: inline;
-  letter-spacing: 0.02em;
 }
 
 .link {
   color: var(--text-color);
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   font-style: normal;
+  letter-spacing: 0.02em;
 }
 
 /* hero */
@@ -190,8 +191,19 @@ ul {
 }
 .address {
   color: var(--hero-text);
+  font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.71;
+}
+
+.link-ft {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-studio {
